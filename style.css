@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+
+* {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  min-height: 400px;
+  background: linear-gradient(135deg, #0a0a0a 0%, #3e2a75 100%) no-repeat center center fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  border-radius: 10px;
+  top: 20%;
+  position: relative;
+  margin: auto;
+  background-color: #3535356e;
+  text-align: center;
+  padding: 20px;
+  height: fit-content;
+  width: 85%;
+  box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.815);
+}
+
+h1 {
+  font-weight: 500;
+  color: white;
+  font-weight: bold
+}
+
+th {
+  background-color: rgba(56, 56, 56, 0.63);
+  border: solid 1px #ffffffa4;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+
+td {
+  padding: 15px;
+  border: solid 1px #ffffff71;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(140, 140, 140, 0.2);
+}
+
+table {
+  color: #ffffff;
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+.colunaNome {
+  white-space: nowrap;
+  color: #f5f4f7;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.empate {
+  background: #eea500;
+  color: #ffffff;
+  margin: 0px 0px 2px 0px;
+  padding: 0px 8px 0px 8px;
+}
+
+button {
+  border-radius: 4px;
+  border-color: transparent;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  transition: 0.3s;
+  background-color: #6868ab;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.botaoVitoria {
+  background: #6868ab;
+  color: #ffffff;
+}
+
+.botaoExcluir {
+  background: #7d2e2e;
+  color: #ffffff;
+}
+
+input[type="text"] {
+  color: #f5f4f7;
+  margin: 10px 10px 10px 0px;
+  background-color: transparent;
+  border: none;
+  border-bottom: #6868ab solid 2px;
+  align-content: center;
+}
+
+::placeholder {
+  color: #f5f4f7a1;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  opacity: 1;
+}

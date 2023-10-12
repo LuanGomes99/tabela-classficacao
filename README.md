@@ -4,7 +4,7 @@ A **Tabela de Classificação** é um projeto criado na **Imersão Dev da Alura*
 
 <p align="center">
   <a href="https://codepen.io/LGomess/full/oNMmOeG">
-    <img src="" width="550">
+    <img src="https://cdn.discordapp.com/attachments/990296596849782804/1162146620012515390/IMG-Tabela-Classificacao.png?ex=653ae061&is=65286b61&hm=80931c5efe592e126c55947705ce7b0ac03b8cec21fcc96b4b83ecd2341ae2ca&" width="550">
   </a>
 </p>
 
